@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="1.8.0_77" class="java.beans.XMLDecoder">
+ <object class="javax.swing.JPanel">
+  <void property="background">
+   <object class="java.awt.Color">
+    <int>128</int>
+    <int>128</int>
+    <int>128</int>
+    <int>255</int>
+   </object>
+  </void>
+  <void method="add">
+   <object class="javax.swing.JLabel">
+    <void property="bounds">
+     <object class="java.awt.Rectangle" id="Rectangle0">
+      <void class="java.awt.Rectangle" method="getField">
+       <string>x</string>
+       <void method="set">
+        <object idref="Rectangle0"/>
+        <int>10</int>
+       </void>
+      </void>
+      <void class="java.awt.Rectangle" method="getField">
+       <string>y</string>
+       <void method="set">
+        <object idref="Rectangle0"/>
+        <int>10</int>
+       </void>
+      </void>
+      <void class="java.awt.Rectangle" method="getField">
+       <string>width</string>
+       <void method="set">
+        <object idref="Rectangle0"/>
+        <int>100</int>
+       </void>
+      </void>
+      <void class="java.awt.Rectangle" method="getField">
+       <string>height</string>
+       <void method="set">
+        <object idref="Rectangle0"/>
+        <int>20</int>
+       </void>
+      </void>
+     </object>
+    </void>
+    <void property="name">
+     <string>jlabelNr_0</string>
+    </void>
+    <void property="text">
+     <string>Mini design</string>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="javax.swing.JButton">
+    <string>Apasa aici</string>
+    <void property="bounds">
+     <object class="java.awt.Rectangle" id="Rectangle1">
+      <void class="java.awt.Rectangle" method="getField">
+       <string>x</string>
+       <void method="set">
+        <object idref="Rectangle1"/>
+        <int>10</int>
+       </void>
+      </void>
+      <void class="java.awt.Rectangle" method="getField">
+       <string>y</string>
+       <void method="set">
+        <object idref="Rectangle1"/>
+        <int>30</int>
+       </void>
+      </void>
+      <void class="java.awt.Rectangle" method="getField">
+       <string>width</string>
+       <void method="set">
+        <object idref="Rectangle1"/>
+        <int>100</int>
+       </void>
+      </void>
+      <void class="java.awt.Rectangle" method="getField">
+       <string>height</string>
+       <void method="set">
+        <object idref="Rectangle1"/>
+        <int>40</int>
+       </void>
+      </void>
+     </object>
+    </void>
+    <void property="name">
+     <string>jbuttonNr_1</string>
+    </void>
+    <void property="toolTipText">
+     <string>Button de apasat!</string>
+    </void>
+   </object>
+  </void>
+  <void property="layout">
+   <null/>
+  </void>
+  <void property="name">
+   <string>main_panel</string>
+  </void>
+ </object>
+</java>
