@@ -63,7 +63,7 @@ Greco-Latin Squqre
     Programul permite rezolvarea labirindului in mod manual (iteractiv) utilizand sagetile de la tastatura sau
     in mod automat.
     
-    
+    --------------------------
     
    
   
