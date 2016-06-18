@@ -47,7 +47,7 @@ Greco-Latin Squqre
    Programul consta in rezolvarea acestui tip de puzzle.
    
  ---------------------------------
- Labirith  
+Labirith  
  -------------------------- 
    Program ce implementeaza un joc de tip labirind. Se da o matrice de intare ce reprezinta un labirind. Ex:
    -1 0 0 0
