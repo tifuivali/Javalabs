@@ -46,9 +46,9 @@ Greco-Latin Squqre
    https://en.wikipedia.org/wiki/Graeco-Latin_square
    Programul consta in rezolvarea acestui tip de puzzle.
    
- ---------------------------------
+---------------------------------
 Labirith  
- -------------------------- 
+-------------------------- 
    Program ce implementeaza un joc de tip labirind. Se da o matrice de intare ce reprezinta un labirind. Ex:
    -1 0 0 0
     1 1 1 0
@@ -63,8 +63,32 @@ Labirith
     Programul permite rezolvarea labirindului in mod manual (iteractiv) utilizand sagetile de la tastatura sau
     in mod automat.
     
-    --------------------------
-    
+--------------------------
+Mini Gui Designer
+-------------------------
+   Aplicatie desktop ce ofera posibilitatea crearei unei mici interfete grafice , utilizand componente java swing.
+   Se poate decora un panel , salva si apoi reincarca si edita in continuare. Se pot adauga si componente prezente 
+   in fisiere (clase) externe nu doar cele standard.Specificarea unei componenete se face pe baza numelui componentei respective.
+   
+   
+------------------------
+Word Game
+-----------------------
+   Joc de cuvinte. Aplicatia simuleaza jocul de cuvinte folosind thread-uri. Se pot adauga pana la 4 jucatori distincti.
+   Clasamentul se va urca automat pe server si va fi generata o pagina web aferenta.
+   Jocul consta in formarea unor cuvinte reale folosind caractere comune din acelasi "sac de litere". Cand literele din "sac" sau epuizat jocul este incheiat. Jucatorul cu cele mai multe cuvinte gasite este castigator.
+   
+--------------------------------
+Word Game Remote 
+--------------------------
+Aplicate ce extinde aplicatie Word Game , adaugand functionalitatea jocului in retea. Aplicatia este formata din 2 parti :
+
+-> Serverul - Mediaza comunicarea intre useri si asigura logica jocului.
+-> Clientul (Playerul) - Comunica cu serverul, primind literele pentru formarea unui cuvand precum si trimiterea cuvantului nou format catre server.
+
+
+
+   
    
   
 
